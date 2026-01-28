@@ -24,4 +24,4 @@ def first_n_primes(n):
 # Get the first 30 prime numbers
 first_30_primes = first_n_primes(30)
 print(first_30_primes)
-print("zuzu et toto, mais aussi titi")
+print("zuzu")
