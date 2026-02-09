@@ -25,3 +25,5 @@ def first_n_primes(n):
 first_30_primes = first_n_primes(30)
 print(first_30_primes)
 print("zuzu, c'est vraiment dingue cet agent Copilot ᕗ")
+for _ in range(3):
+    print("vive zuzu")
