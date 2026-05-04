@@ -21,9 +21,6 @@ def first_n_primes(n):
         num += 1
     return primes
 
-# Get the first 30 prime numbers
-first_30_primes = first_n_primes(30)
-print(first_30_primes)
-print("zuzu, c'est vraiment dingue cet agent Copilot ᕗ")
-for _ in range(3):
-    print("vive zuzu")
+# Get the first 10 prime numbers and print them on one line
+primes = first_n_primes(10)
+print(' '.join(map(str, primes)))
